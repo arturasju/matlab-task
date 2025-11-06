@@ -1,4 +1,4 @@
-# matlab-task
+# MATLAB Interview Task (Mitek Analytics) -Artur Akopyan
 # Project Description
 MATLAB time series plotter with generated data and configurable trends - this project reads CSV datasets and config files to generate customixable plots with optimized mean lines, linear/ploy regressions, or Hodrick-Prescott filter trend smoothing. This code outputs a detailed labeled visualization (PNG) which shows the key data trends and patterns.
 
@@ -41,15 +41,14 @@ Open MATLAB
 # Config File
 The config.csv file defines how the plot should look:
   (key, value, comment)
-  # Key	Value Example	Description
-  showMeanLine	1	Show (1) or hide (0) the red mean line
-  showTrendLine	1	Show (1) or hide (0) the green trend line
-  trendType	linear, poly3, hp	Selects trend algorithm:
-  1. linear – straight regression
-  2. poly3 – curved fit
-  3. hp – smoothed trend
-  xlabel	Date	Text label for x-axis
-  ylabel	Value	Text label for y-axis
+
+  | **Key** | **Value Example** | **Description** |
+|----------|------------------|-----------------|
+| showMeanLine | 1 | Show (1) or hide (0) the red mean line |
+| showTrendLine | 1 | Show (1) or hide (0) the green trend line |
+| trendType | linear / poly3 / hp | Selects trend algorithm:<br>• **linear** – straight regression<br>• **poly3** – curved fit<br>• **hp** – smoothed trend |
+| xlabel | Date | Text label for x-axis |
+| ylabel | Value | Text label for y-axis |
 
 # Data Interface Specs
   ## Data file (inputs)
