@@ -20,7 +20,7 @@ The script is 'makeTestData.m'
 # Data Trending Algorithm
 The function is dataTrend.m (we have this called in 'task.m')
 1. Linear regression, using least-squares fit
-2. 3rd order poly regression
+2. 3<sup>rd</sup> order poly regression
 3. Hodrick-Prescott Filter for nonparametric trend smoothing (we can set our lambda = 100000 for better smooth results on the noisy cosine data)
 
 # Output
