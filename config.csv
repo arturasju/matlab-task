@@ -1,0 +1,6 @@
+key,value,comment
+showMeanLine,1,"Show mean line (1=yes, 0=no)"
+showTrendLine,1,"Show trend fit line (1=yes, 0=no)"
+trendType,linear,Trend type: linear supported
+xlabel,Date,Text for X-axis label
+ylabel,Sample Value,Text for Y-axis label
