@@ -12,9 +12,9 @@ The main script is 'task.m'
 # Test Data Generator
 The script is 'makeTestData.m'
 1. This generates the test datasets ('data_6months.csv, 'data_31days.csv, 'data_365days')
-   a. You need to change the code accordingly to generate what you want
-2. Supports random data or cosine-based noisy data
-3. Assists in verifying trend and smoothing functionality
+2. You need to change the code accordingly to generate what you want
+3. Supports random data or cosine-based noisy data
+4. Assists in verifying trend and smoothing functionality
 
 # Data Trending Algorithm
 The function is dataTrend.m (we have this called in 'task.m')
@@ -28,10 +28,10 @@ A PNG image called 'plot.png' will be generated showing the visualization
 # User Instructions
 Open MATLAB
 1. Place these files in the same directory:
-   - 'task.m'
-   - `makeTestData.m'
-   - 'dataTrend.m'
-   -  make sure you have set the correctly directory for the data to be inputted into the folders
+      - 'task.m'
+      - `makeTestData.m'
+      - 'dataTrend.m'
+      -  make sure you have set the correctly directory for the data to be inputted into the folders
 2. Edit the first lines of `task.m` to point to your data file:
    data   = for example 'data_365.csv';
    config = for example 'config.csv';
@@ -54,24 +54,24 @@ The config.csv file defines how the plot should look:
   ## Data file (inputs)
   1. Format : .csv
   2. Columns :
-     a. date = we check correct format in matlab
-     b. value = numberical value
+      - date = we check correct format in matlab
+      - value = numberical value
   
   ## Config file (inputs)
   1. Format : .csv
   2. Columns :
-     a. key
-     b. value
-     c. comment
+      - key
+      - value
+      - comment
   3. Helps define which labels and lines to display on the plot
   
   ## Output
   1. Format : plot.png (.png)
   2. Description
-     a. Blue Line = raw data
-     b. Red Line = mean
-     c. Green Line = trend
-     d. Labels automatically applied
+      - Blue Line = raw data
+      - Red Line = mean
+      - Green Line = trend
+      - Labels automatically applied
 
 # Explanation of Results
 ## Example Plots
