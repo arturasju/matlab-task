@@ -11,10 +11,11 @@ The main script is 'task.m'
 
 # Test Data Generator
 The script is 'makeTestData.m'
-1. This generates the test datasets ('data_6months.csv, 'data_31days.csv, 'data_365days')
-2. You need to change the code accordingly to generate what you want
-3. Supports random data or cosine-based noisy data
-4. Assists in verifying trend and smoothing functionality
+1. This generates the test datasets as specified in the code which can be changed to what you desire
+      - ('data_6months.csv, 'data_31days.csv, 'data_365days')
+3. You need to change the code accordingly to generate what you want
+4. Supports random data or cosine-based noisy data
+5. Assists in verifying trend and smoothing functionality
 
 # Data Trending Algorithm
 The function is dataTrend.m (we have this called in 'task.m')
