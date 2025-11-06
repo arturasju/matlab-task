@@ -73,4 +73,40 @@ The config.csv file defines how the plot should look:
      c. Green Line = trend
      d. Labels automatically applied
 
+# Explanation of Results
+## 🖼️ Example Plots
+
+Below are example outputs generated using different datasets to demonstrate the project’s functionality.
+
+---
+
+### 6-Month Random Data (0–100000 Range)
+![6-Month Plot](plot_6months.png)  
+*Shows random data with large variance over six months.  
+The red dashed line indicates the mean value, and the green dashed line shows the linear trend increasing slightly over time.*
+
+---
+
+### 31-Day Random Data (0–1 Range)
+![31-Day Plot](plot_31days.png)  
+*Short-term dataset with smaller fluctuations.  
+The green trend line shows a gentle upward slope.*
+
+---
+
+### 1-Year Random Data (1–999 Range)
+![1-Year Plot](plot_365.png)  
+*Full-year dataset showing consistent random spread.  
+The trend (green) and mean (red) lines demonstrate overall balance around the midpoint.*
+
+---
+
+### Cosine Function Data with Noise
+![Cosine Trend Plot](plot_cosine.png)  
+*Cosine wave with added noise.  
+The HP filter (green) produces a smooth trend capturing the underlying periodic shape,  
+while the red mean line stays constant near zero.*
+
+---
+
    
