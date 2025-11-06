@@ -30,10 +30,10 @@ A PNG image called 'plot.png' will be generated showing the visualization
 Open MATLAB
 1. Place these files in the same directory:
       - 'task.m'
-      - `makeTestData.m'
+      - 'makeTestData.m'
       - 'dataTrend.m'
       -  make sure you have set the correctly directory for the data to be inputted into the folders
-2. Edit the first lines of `task.m` to point to your data file:
+2. Edit the first lines of 'task.m' to point to your data file:
       - data   = for example 'data_365.csv';
       - config = for example 'config.csv';
 3. Run the script
