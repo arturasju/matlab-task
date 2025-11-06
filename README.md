@@ -47,7 +47,7 @@ The config.csv file defines how the plot should look:
 |----------|------------------|-----------------|
 | showMeanLine | 1 | Show (1) or hide (0) the red mean line |
 | showTrendLine | 1 | Show (1) or hide (0) the green trend line |
-| trendType | linear / poly3 / hp | Selects trend algorithm:<br>• **linear** – straight regression<br>• **poly3** – curved fit<br>• **hp** – smoothed trend |
+| trendType | linear / poly3 / hp | Selects trend algorithm:<br>• *linear* – straight regression<br>• *poly3* – curved fit<br>• *hp* – smoothed trend |
 | xlabel | Date | Text label for x-axis |
 | ylabel | Value | Text label for y-axis |
 
