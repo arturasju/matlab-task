@@ -28,7 +28,7 @@ A PNG image called 'plot.png' will be generated showing the visualization
 ## User Instructions
 Open MATLAB
 1. Place these files in the same directory:
-   - `task.m`
+   - 'task.m'
    - `makeTestData.m'
    - 'dataTrend.m'
    -  make sure you have set the correctly directory for the data to be inputted into the folders
