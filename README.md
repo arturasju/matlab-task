@@ -74,7 +74,7 @@ The config.csv file defines how the plot should look:
      d. Labels automatically applied
 
 # Explanation of Results
-## 🖼️ Example Plots
+## Example Plots
 
 Below are example outputs generated using different datasets to demonstrate the project’s functionality.
 
