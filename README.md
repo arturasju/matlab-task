@@ -34,8 +34,8 @@ Open MATLAB
       - 'dataTrend.m'
       -  make sure you have set the correctly directory for the data to be inputted into the folders
 2. Edit the first lines of `task.m` to point to your data file:
-   data   = for example 'data_365.csv';
-   config = for example 'config.csv';
+      - data   = for example 'data_365.csv';
+      - config = for example 'config.csv';
 3. Run the script
 4. Plot will show in window and save in the corrrect folder as 'plot.png', you can go ahead and rename the plot graph afterwards.
 
